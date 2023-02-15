@@ -1,0 +1,29 @@
+{
+    "files.associations": {
+        "font.h": "c",
+        "simple_gui.h": "c",
+        "easyio.h": "c",
+        "spi_lcd.h": "c",
+        "*.ipp": "c",
+        "sdmmc_types.h": "c",
+        "sd_card_fatfs.h": "c",
+        "task.h": "c",
+        "*.tcc": "cpp",
+        "sstream": "cpp",
+        "streambuf": "cpp",
+        "list": "cpp",
+        "ledc_pwm.h": "c",
+        "i2c.h": "c",
+        "dac_output.h": "c",
+        "i2c_pcf8563.h": "c",
+        "i2c_config.h": "c",
+        "esp_log.h": "c",
+        "svm.h": "c",
+        "stdint.h": "c",
+        "led.h": "c",
+        "uart.h": "c",
+        "esp_bt_defs.h": "c",
+        "esp_gatts_api.h": "c",
+        "random": "c"
+    }
+}

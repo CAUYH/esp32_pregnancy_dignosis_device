@@ -1,0 +1,20 @@
+
+This directory is intended for PlatformIO Test Runner and project tests.
+
+Unit Testing is a software testing method by which individual units of
+source code, sets of one or more MCU program modules together with associated
+control data, usage procedures, and operating procedures, are tested to
+determine whether they are fit for use. Unit testing finds problems early
+in the development cycle.
+
+More information about PlatformIO Unit Testing:
+- https://docs.platformio.org/en/latest/advanced/unit-testing/index.html
+
+屏幕型号：0.96TFT三彩，驱动芯片ST7735
+#define SPI3_DEF_PIN_NUM_CLK     14  // SPI3默认的CLK引脚
+#define SPI3_DEF_PIN_NUM_MOSI    15  // SPI3默认的MOSI引脚
+#define PIN_NUM_RST  27    // RST复位引脚。-1为空置不使用。但LCD的RST引脚应上拉接高电平。
+#define PIN_NUM_DC   26    // D/C线，0-命令，1-数据
+#define LCD_SPI3_DEF_PIN_NUM_CS0  25  // SPI3默认的CS0引脚
+#define PIN_NUM_BCKL 12    // 背光BLK引脚。0-关闭，1-打开
+#define SPI3_DEF_PIN_NUM_MISO    4  // SPI3默认的MISO引脚
